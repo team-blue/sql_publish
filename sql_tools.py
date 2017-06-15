@@ -54,7 +54,7 @@ def show_table():
         # print('Total Row(s):', cursor.rowcount)
         # for row in rows:
         #     print(row)
-        return str(rows[0][1])
+        return rows
 
     except Error as e:
         print('Error:', e)
